@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In src/fonts.css or your main CSS file */
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/static/Inter_18pt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(5, 4, 74, 1) 12%,
+    rgba(9, 9, 121, 1) 31%,
+    rgba(4, 127, 199, 1) 81%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
